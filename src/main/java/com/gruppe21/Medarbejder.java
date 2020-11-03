@@ -2,8 +2,6 @@ package com.gruppe21;
 
 public class Medarbejder extends Bruger{
 
-    public Medarbejder(){}
-
     public void setNavn(String navn){
         this.navn=navn;
     }
