@@ -13,14 +13,6 @@ public class Medarbejder extends Bruger{
         opgaver = new ArrayList<Opgave>();
     }
 
-    public void setNavn(String navn){
-        this.navn=navn;
-    }
-
-    public String getNavn(){
-        return navn;
-    }
-
     public List getOpgaver(){
         return opgaver;
     }
