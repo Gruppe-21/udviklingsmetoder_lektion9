@@ -1,7 +1,7 @@
 package com.gruppe21;
 
 public class Vagtansvarlig extends Bruger{
-    private Facilitet
+    private Facilitet;
 
     public Vagtansvarlig()
     {
