@@ -2,7 +2,6 @@ package com.gruppe21;
 import java.util.Date;
 
 public class Vagtansvarlig extends Bruger{
-    private Facilitet;
 
     public Vagtansvarlig()
     {
