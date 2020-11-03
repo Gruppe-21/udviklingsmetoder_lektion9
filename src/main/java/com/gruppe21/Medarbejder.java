@@ -14,7 +14,7 @@ public class Medarbejder extends Bruger{
         return navn;
     }
 
-    public Opgave getOpgaver(){
+    public ArrayList getOpgaver(){
         return opgave;
     }
 
