@@ -1,6 +1,6 @@
 package com.gruppe21;
 
-public class Medarbejder {
+public class Medarbejder extends Bruger{
 
     public Medarbejder(){}
 
