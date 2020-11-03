@@ -1,6 +1,9 @@
 package com.gruppe21;
 
-public class Systemadministrator {
+public class Systemadministrator extends Bruger {
+
+    public Systemadministrator(){}
+
     public boolean opretMedarbejder(int id, int medarbejderType) {
     }
 
