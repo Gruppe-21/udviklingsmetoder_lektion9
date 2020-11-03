@@ -15,7 +15,7 @@ public class Vagtansvarlig extends Bruger{
 
     public void tildelOpgave(Opgave opgave, Medarbejder ... medarbejder)
     {
-        return opgave;
+        return;
     }
 
 }
