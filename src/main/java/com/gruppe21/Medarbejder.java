@@ -1,16 +1,16 @@
 package com.gruppe21;
 
 import org.graalvm.compiler.nodes.calc.IntegerDivRemNode;
-
 import java.util.ArrayList;
+import java.util.List;
 
 public class Medarbejder extends Bruger{
 
-    private Opgave[] opgave;
+    private List opgaver;
 
     public Medarbejder(int id, String navn) {
         super(id, navn);
-        opgave = new Opgave[0];
+        opgaver = new ArrayList<Opgave>();
     }
 
     public void setNavn(String navn){
@@ -21,11 +21,13 @@ public class Medarbejder extends Bruger{
         return navn;
     }
 
-    public Opgave[] getOpgaver(){
-        return opgave;
+    public List getOpgaver(){
+        return opgaver;
     }
 
-    public void tilføjOpgave(){}
+    public void tilføjOpgave(Opgave opgave){
+        opgaver.add(opgave);
+    }
 
     public void fjernOpgave(Opgave opgave){}
 
