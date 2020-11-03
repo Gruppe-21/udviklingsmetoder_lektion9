@@ -2,7 +2,9 @@ package com.gruppe21;
 
 public class Systemadministrator extends Bruger {
 
-    public Systemadministrator(){}
+    public Systemadministrator(int id, String navn){
+        super(id,navn);
+    }
 
     public boolean opretMedarbejder(int id, int medarbejderType) {
     }
