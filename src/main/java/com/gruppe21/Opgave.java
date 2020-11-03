@@ -3,7 +3,7 @@ package com.gruppe21;
 import java.util.Date;
 
 public class Opgave {
-   private Date deadline;
+    private Date deadline;
     private Facilitet facilitet;
     public Date getDeadline() {
         return deadline;
