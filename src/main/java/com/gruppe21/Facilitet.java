@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class Facilitet {
-    int nummer;
-    Date sidstRengjort;
-    ArrayList underFacilitet;
+    private int nummer;
+    private Date sidstRengjort;
+    private ArrayList underFacilitet;
 
     public Facilitet(int nummer){
         this.nummer = nummer;
