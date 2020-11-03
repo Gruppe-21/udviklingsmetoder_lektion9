@@ -29,6 +29,6 @@ public class Medarbejder extends Bruger{
 
     public void fjernOpgave(Opgave opgave){}
 
-    public Opgave markerOpgaveFærdig(Opgave opgave){}
+    public Opgave[] markerOpgaveFærdig(Opgave opgave){}
 
 }
