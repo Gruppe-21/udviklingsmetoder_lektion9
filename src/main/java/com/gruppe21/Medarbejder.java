@@ -25,8 +25,10 @@ public class Medarbejder extends Bruger{
         return opgaver;
     }
 
-    public void tilføjOpgave(Opgave opgave){
+    public boolean tilføjOpgave(Opgave opgave){
+        boolean kunneTildele = true;
         opgaver.add(opgave);
+        return kunneTildele;
     }
 
     public void fjernOpgave(Opgave opgave){}
