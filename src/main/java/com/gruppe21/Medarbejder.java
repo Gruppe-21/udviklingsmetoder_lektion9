@@ -10,6 +10,7 @@ public class Medarbejder extends Bruger{
 
     public Medarbejder(int id, String navn) {
         super(id, navn);
+        opgave = new Opgave[0];
     }
 
     public void setNavn(String navn){
@@ -20,7 +21,7 @@ public class Medarbejder extends Bruger{
         return navn;
     }
 
-    public ArrayList getOpgaver(){
+    public Opgave[] getOpgaver(){
         return opgave;
     }
 
