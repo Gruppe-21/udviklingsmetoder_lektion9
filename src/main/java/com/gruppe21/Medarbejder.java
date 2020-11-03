@@ -1,6 +1,12 @@
 package com.gruppe21;
 
+import org.graalvm.compiler.nodes.calc.IntegerDivRemNode;
+
+import java.util.ArrayList;
+
 public class Medarbejder extends Bruger{
+
+    private Opgave[] opgave;
 
     public Medarbejder(int id, String navn) {
         super(id, navn);
