@@ -6,10 +6,11 @@ public class Systemadministrator extends Bruger {
         super(id,navn);
     }
 
-    public boolean opretMedarbejder(int id, int medarbejderType) {
+    public boolean opretMedarbejder(int id, int medarbejderType) { return true;
     }
 
     public boolean fjernMedarbejder(int id) {
+        return true;
     }
 
     public void OpretFacilitet(int nummer, Facilitet overFacilitet) { //overFacilitet : Facilitet=null
